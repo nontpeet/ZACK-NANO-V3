@@ -9,7 +9,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 Servo myservo;  
 
 int potpin = 7;     // กำหนดขา Analog ที่จะใช้ทดสอบ ในที่นี้ใช้ ขา 7 ซึ่งต่ออยู่กับ VR หรือ POT
-int servo_pin = 10; // กำหนดขา SERVO  ที่จะทดสอบ  โดยบอร์ด ZACK NANO V3  จะมี ขา D10,D11,D12
+int servo_pin = 11; // กำหนดขา SERVO  ที่จะทดสอบ  โดยบอร์ด ZACK NANO V3  จะมี ขา D10,D11,D12
 int val;        
 
 void setup() {
